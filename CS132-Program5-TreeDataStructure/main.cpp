@@ -17,7 +17,18 @@ Repo:           https://github.com/TaylorBisset/CS132-Program5-TreeDataStructure
 
 int main()
 {
-    cout << "Hello World!\n";
+    Tree tree;
+
+    int treeValues[] = { 6, 9, 3, 5, 5, 7, 2, 10, 4, 1, 8 };
+
+    for (int value : treeValues)
+    {
+        tree.insert(value);
+    }
+
+    cout << "Sorted Data: " << tree << endl;
+
+    return 0;
 }
 
 /*
