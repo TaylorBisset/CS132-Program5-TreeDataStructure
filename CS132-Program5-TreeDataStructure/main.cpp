@@ -20,3 +20,30 @@ int main()
 {
     cout << "Hello World!\n";
 }
+
+/*
+
+Requirements:
+
+- The insert member function should use loops to find the correct place for the new data 
+(NOTE: duplicate numbers should not be added to the tree), 
+and the print function must use recursion to print out the sorted data from the Tree.
+
+- Inside the insert function you NEED to give the following “debug” output:
+
+insert in empty tree        when this is the case
+going left/right            when moving to the left or right down tree
+inserting TRUE/FALSE        able to insert or not
+
+{for an example look at the Program 6 Notes Tree.pdf in the Lecture section on Canvas}
+
+- Insert the following numbers into the tree in this order:
+
+                6   9    3    5    5   7   2   10   4   1   8
+
+  ....and then output the data in sorted order and count from the list
+
+  - turn in your main, the output, Tree.h, Tree.cpp, 
+  and yes there should be a program header before main and a short class header before the Tree.h
+
+*/
