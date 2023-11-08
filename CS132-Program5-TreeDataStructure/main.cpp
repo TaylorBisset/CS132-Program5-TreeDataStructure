@@ -33,6 +33,46 @@ int main()
 
 /*
 
+OUTPUT: 
+
+insert in empty tree
+going right
+inserting TRUE
+going left
+inserting TRUE
+going left
+going right
+inserting TRUE
+going left
+going right
+going inserting FALSE
+going right
+going left
+inserting TRUE
+going left
+going left
+inserting TRUE
+going right
+going right
+inserting TRUE
+going left
+going right
+going left
+inserting TRUE
+going left
+going left
+going left
+inserting TRUE
+going right
+going left
+going right
+inserting TRUE
+Sorted Data: Count: 10
+
+*/
+
+/*
+
 Requirements:
 
 - The insert member function should use loops to find the correct place for the new data 
