@@ -26,7 +26,15 @@ int main()
         tree.insert(value);
     }
 
-    cout << "Sorted Data: " << tree << endl;
+    cout << endl << "Sorted Data: ";
+    
+    for (int value : treeValues)
+    {
+        cout << value << " ";
+    }
+
+    cout << endl;
+    cout << "Tree size: " << tree << endl;
 
     return 0;
 }
@@ -86,8 +94,9 @@ Inserting 8:
              going left.
              going right.
         Inserting 8 TRUE
-Sorted Data: Count: 10
 
+Sorted Data: 6 9 3 5 5 7 2 10 4 1 8
+Tree size: Count: 10
 
 */
 
