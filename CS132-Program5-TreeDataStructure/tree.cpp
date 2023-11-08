@@ -50,3 +50,12 @@ bool Tree::insert(int newVal)
 		}
 	}
 }
+
+void Tree::print(ostream& output, Node* currentNode) const
+{
+	if (currentNode)
+	{
+		print(output, currentNode->left);
+		print(output, currentNode->right);
+	}
+}

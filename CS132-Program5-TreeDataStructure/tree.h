@@ -25,7 +25,7 @@ public:
     friend ostream& operator<<(ostream& str, const Tree& tree); // calls print and outputs count
 
 private:
-    void print(ostream& ostr, Node* curNode) const;  // recursive function
+    void print(ostream& output, Node* currentNode) const;  // recursive function
     Node* root;
     int count;
 };
