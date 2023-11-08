@@ -59,3 +59,10 @@ void Tree::print(ostream& output, Node* currentNode) const
 		print(output, currentNode->right);
 	}
 }
+
+ostream& operator<<(ostream& str, const Tree& tree)
+{
+	tree.print(str, tree.root);
+	str << "Count: " << tree.count;
+	return str;
+}
