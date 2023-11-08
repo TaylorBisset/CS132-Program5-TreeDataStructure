@@ -5,6 +5,8 @@
 
 #include <iostream>
 
+using namespace std;
+
 class Tree 
 {
 public:
@@ -20,10 +22,10 @@ public:
 
     Tree() : count(0), root(nullptr) {}
     bool insert(int newVal);
-    friend std::ostream& operator<<(std::ostream& str, const Tree& tree); // calls print and outputs count
+    friend ostream& operator<<(ostream& str, const Tree& tree); // calls print and outputs count
 
 private:
-    void print(std::ostream& ostr, Node* curNode) const;  // recursive function
+    void print(ostream& ostr, Node* curNode) const;  // recursive function
     Node* root;
     int count;
 };

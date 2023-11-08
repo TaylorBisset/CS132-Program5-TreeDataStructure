@@ -13,8 +13,7 @@ Repo:           https://github.com/TaylorBisset/CS132-Program5-TreeDataStructure
 // main.pp
 
 #include <iostream>
-
-using namespace std;
+#include "tree.h"
 
 int main()
 {
