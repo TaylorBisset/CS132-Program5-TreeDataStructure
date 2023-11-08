@@ -9,45 +9,44 @@ bool Tree::insert(int newVal)
 	{
 		root = newNode;
 		count++;
-		cout << "insert in empty tree\n";	// debug output
+		cout << "Inserting " << newVal << " into an empty tree.\n\n";	// debug output
 		return true;
 	}
 
 	Node* current = root;
 	while (current) 
 	{
-		cout << "going ";		// debug output
-
+		cout << "Inserting " << newVal << ": \n";		// debug output
+		if (newVal == current->data)
+		{
+			cout << "\tInserting " << newVal << " FALSE (duplicate value)\n";	// debug output
+			delete newNode;		// delete the value because it is a duplicate
+			return false;
+		}
 		if (newVal < current->data)
 		{
-			cout << "left\n";	// debug output		"going left"
+			cout << "\t     going left.\n";	// debug output	
 			if (!current->left)
 			{
 				current->left = newNode;	// insert left
 				count++;
-				cout << "inserting TRUE\n";	// debug output
+				cout << "\tInserting " << newVal << " TRUE\n";	// debug output
 				return true;
 			}
 			current = current->left;
 		}
-		else if (newVal > current->data)
+		if (newVal > current->data)
 		{
-			cout << "right\n";	// debug output		"going right"
+			cout << "\t     going right.\n";	// debug output
 			if (!current->right)
 			{
 				current->right = newNode;	// insert right
 				count++;
-				cout << "inserting TRUE\n";	// debug output
+				cout << "\tInserting " << newVal << " TRUE\n";	// debug output
 				return true;
 			}
 			current = current->right;
-		}
-		else
-		{
-			cout << "inserting FALSE\n";	// debug output
-			delete newNode;		// delete the value because it is a duplicate
-			return false;
-		}
+		}	
 	}
 }
 

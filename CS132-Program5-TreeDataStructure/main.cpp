@@ -35,39 +35,59 @@ int main()
 
 OUTPUT: 
 
-insert in empty tree
-going right
-inserting TRUE
-going left
-inserting TRUE
-going left
-going right
-inserting TRUE
-going left
-going right
-going inserting FALSE
-going right
-going left
-inserting TRUE
-going left
-going left
-inserting TRUE
-going right
-going right
-inserting TRUE
-going left
-going right
-going left
-inserting TRUE
-going left
-going left
-going left
-inserting TRUE
-going right
-going left
-going right
-inserting TRUE
+Inserting 6 into an empty tree.
+
+Inserting 9:
+             going right.
+        Inserting 9 TRUE
+Inserting 3:
+             going left.
+        Inserting 3 TRUE
+Inserting 5:
+             going left.
+             going right.
+        Inserting 5 TRUE
+Inserting 5:
+             going left.
+             going right.
+Inserting 5:
+        Inserting 5 FALSE (duplicate value)
+Inserting 7:
+             going right.
+Inserting 7:
+             going left.
+        Inserting 7 TRUE
+Inserting 2:
+             going left.
+Inserting 2:
+             going left.
+        Inserting 2 TRUE
+Inserting 10:
+             going right.
+Inserting 10:
+             going right.
+        Inserting 10 TRUE
+Inserting 4:
+             going left.
+             going right.
+Inserting 4:
+             going left.
+        Inserting 4 TRUE
+Inserting 1:
+             going left.
+Inserting 1:
+             going left.
+Inserting 1:
+             going left.
+        Inserting 1 TRUE
+Inserting 8:
+             going right.
+Inserting 8:
+             going left.
+             going right.
+        Inserting 8 TRUE
 Sorted Data: Count: 10
+
 
 */
 
