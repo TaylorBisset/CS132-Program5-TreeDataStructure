@@ -3,7 +3,7 @@
 /*
 This file implements the Tree class and its member functions. 
 It includes the insert, print, and operator<< implementations. 
-Specifically, this implementation sorts values through the tree
+Specifically, this implementation sorts the values through the tree
   by moving left or right until it reaches an open slot.
 */
 
