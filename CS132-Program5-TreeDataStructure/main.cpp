@@ -6,6 +6,8 @@
  Description:   This program is a simple and incomplete version 
                 of the Binary Search Tree data structure that only
                 includes 3 functions for the class. 
+                This program inserts values into the tree, then sorts
+                and prints the data values in an organized layout. 
 
 Repo:           https://github.com/TaylorBisset/CS132-Program5-TreeDataStructure
 */

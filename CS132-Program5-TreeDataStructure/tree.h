@@ -1,5 +1,11 @@
 // tree.h
 
+/*
+This file defines the Tree class and its inner Node class.
+The Tree class represent the Binary Search Tree data structure.
+the Node class defines the nodes used with the tree. 
+*/
+
 #ifndef TREE_H
 #define TREE_H
 
