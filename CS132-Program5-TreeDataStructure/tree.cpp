@@ -14,12 +14,12 @@ bool Tree::insert(int newVal)
 	}
 
 	Node* current = root;
+	cout << "Inserting " << newVal << ": \n";		// debug output
 	while (current) 
 	{
-		cout << "Inserting " << newVal << ": \n";		// debug output
 		if (newVal == current->data)
 		{
-			cout << "\tInserting " << newVal << " FALSE (duplicate value)\n";	// debug output
+			cout << "\tInserting " << newVal << " FALSE\n\t(duplicate value)\n";	// debug output
 			delete newNode;		// delete the value because it is a duplicate
 			return false;
 		}
