@@ -26,15 +26,14 @@ int main()
         tree.insert(value);
     }
 
-    cout << endl << "Sorted Data: ";
+    cout << endl << "Input Data:  ";
     
     for (int value : treeValues)
     {
         cout << value << " ";
     }
-
     cout << endl;
-    cout << "Tree size: " << tree << endl;
+    cout << "Sorted Data: " << tree << endl;
 
     return 0;
 }
