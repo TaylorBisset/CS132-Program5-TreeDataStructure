@@ -57,45 +57,39 @@ Inserting 5:
 Inserting 5:
              going left.
              going right.
-Inserting 5:
-        Inserting 5 FALSE (duplicate value)
+        Inserting 5 FALSE
+        (duplicate value)
 Inserting 7:
              going right.
-Inserting 7:
              going left.
         Inserting 7 TRUE
 Inserting 2:
              going left.
-Inserting 2:
              going left.
         Inserting 2 TRUE
 Inserting 10:
              going right.
-Inserting 10:
              going right.
         Inserting 10 TRUE
 Inserting 4:
              going left.
              going right.
-Inserting 4:
              going left.
         Inserting 4 TRUE
 Inserting 1:
              going left.
-Inserting 1:
              going left.
-Inserting 1:
              going left.
         Inserting 1 TRUE
 Inserting 8:
              going right.
-Inserting 8:
              going left.
              going right.
         Inserting 8 TRUE
 
-Sorted Data: 6 9 3 5 5 7 2 10 4 1 8
-Tree size: Count: 10
+Input Data:  6 9 3 5 5 7 2 10 4 1 8
+Sorted Data: 1 2 3 4 5 6 7 8 9 10
+Count:       10
 
 */
 
